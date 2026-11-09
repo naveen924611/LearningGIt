@@ -116,12 +116,12 @@ duplex._write=function (chunk, encoding, callback){
             callback() signals that the write operation has completed. */
     }
 
-// Reading
+// Reading Ok Hello
 duplex.on('data', (chunk) => {
     console.log('Read:', chunk.toString());
 });
 
-// Writing
+// Writingss
 duplex.write('Hello from writable side!');
 
 duplex.end();
