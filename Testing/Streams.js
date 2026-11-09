@@ -121,7 +121,10 @@ duplex.on('data', (chunk) => {
     console.log('Read:', chunk.toString());
 });
 
+
 // Writingss
 duplex.write('Hello from writable side!');
+
+duplex.write('Hello from writable side!2222');
 
 duplex.end();
