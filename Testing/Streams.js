@@ -127,6 +127,4 @@ duplex.write('Hello from writable side!');
 
 duplex.write('Hello from writable side!2222');
 
-console.log("this is for getting revert changes in git")
-
 duplex.end();
